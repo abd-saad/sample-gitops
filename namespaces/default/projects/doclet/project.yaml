@@ -11,3 +11,8 @@ metadata:
 spec:
   deploymentPipelineRef:
     name: standard
+    kind: DeploymentPipeline
+
+  type:
+    kind: ClusterProjectType
+    name: default
